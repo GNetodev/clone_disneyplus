@@ -3,6 +3,7 @@
 @use 'shows';
 @use 'plans';
 @use 'avalibe-devices';
+@use 'faq';
 
 @font-face {
     font-family: Avenir;
@@ -76,10 +77,15 @@ body {
     color: variaveis.$corTextoSecundario;
     background-color: #6421FF;
     text-transform: uppercase;
+    border: none;
     border-radius: 4px;
     margin-top: 2vw;
     margin-bottom: 8px;
-    border-color: #6421FF;
+}
+
+.button:hover {
+    background-color: #3d1894;
+    cursor: pointer;
 }
 
 .image-text-section {
